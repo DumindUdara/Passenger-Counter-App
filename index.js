@@ -9,11 +9,15 @@ let saveNm = document.getElementById("save-nm")
 let count = 0
 
 
+
+
 // create increment function
 function increment() {
     count += 1
     countEl.textContent = count
 }
+
+
 
 // create save function
 function save() {
@@ -22,6 +26,8 @@ function save() {
     countEl.textContent = 0
     count = 0
 }
+
+
 
 // create clear function
 function clearBtn() {
