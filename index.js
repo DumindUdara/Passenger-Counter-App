@@ -6,18 +6,14 @@ let saveEl = document.getElementById("save-el")
 // create saveNm variable 
 let saveNm = document.getElementById("save-nm")
 
+// Gloable variable 
 let count = 0
-
-
-
 
 // create increment function
 function increment() {
     count += 1
     countEl.textContent = count
 }
-
-
 
 // create save function
 function save() {
@@ -27,8 +23,6 @@ function save() {
     count = 0
 }
 
-
-
 // create clear function
 function clearBtn() {
     countEl.textContent = 0
@@ -36,3 +30,6 @@ function clearBtn() {
     saveNm.textContent = ""
 
 }
+
+// A Passenger Counter App written in Javascript. Can be used for counting persons entering places. Built with simple functions such as incrementing, save clear.
+
