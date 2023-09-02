@@ -21,6 +21,7 @@ function save() {
     saveNm.textContent += saveStr
     countEl.textContent = 0
     count = 0
+    
 }
 
 // create clear function
